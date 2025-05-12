@@ -1,14 +1,18 @@
 # GeoJSON Map Viewer
 
-This is a simple and responsive web app that displays a GeoJSON file on an interactive Leaflet map.
+This is a small web app that shows GeoJSON files on an interactive map using Leaflet and OpenStreetMap.
 
-## 🔧 How to Use
+## How to Use
 
-1. Fork or clone this repo.
-2. Put your GeoJSON file into the `data/` folder and rename it to `your_data.geojson`.
-3. Open `index.html` in your browser OR deploy it to GitHub Pages!
+1. Put your GeoJSON file in the `data` folder and name it `your_data.geojson`.
+2. Open `index.html` in your browser to see the map.
+3. You can also upload the project to GitHub and use GitHub Pages to view it online.
 
-## 🛠 Tools Used
+## About
+- Uses [Leaflet](https://leafletjs.com/) for the map.
+- Map tiles are from [OpenStreetMap](https://www.openstreetmap.org/).
+- You can zoom, pan, and explore your GeoJSON data.
 
-- [Leaflet](https://leafletjs.com/)
-- [OpenStreetMap Tiles](https://www.openstreetmap.org/)
+## License
+
+MIT License – feel free to use and modify.
